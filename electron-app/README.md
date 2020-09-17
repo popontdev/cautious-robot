@@ -1,4 +1,4 @@
-# electron-app
+# Cautious Robot
 
 ## Project setup
 ```
