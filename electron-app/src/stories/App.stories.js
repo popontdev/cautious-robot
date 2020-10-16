@@ -1,7 +1,7 @@
-import SidebarView from './views/Sidebar.svelte'
+import NavBarView from './views/NavBar.svelte'
 
 export default {title: 'App Components'}
 
-export const sidebar = () => ({
-	Component: SidebarView,
+export const NavBar = () => ({
+	Component: NavBarView,
 })
