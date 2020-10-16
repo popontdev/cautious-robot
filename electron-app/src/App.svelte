@@ -1,1 +1,5 @@
-<h1>Hello electron from svelte!</h1>
+<h1>Hello world full of robots!</h1>
+<NavBar></NavBar>
+<script>
+    import NavBar from './components/NavBar.svelte'
+</script>

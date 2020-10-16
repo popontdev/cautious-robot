@@ -1,7 +1,7 @@
 {
-  "name": "svelte-electron-template",
+  "name": "cautious-robot",
   "version": "0.0.1",
-  "description": "Svelte Electron Application Template",
+  "description": "Svelte Electron Application for Cautious Robot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,13 +13,13 @@
     "storybook": "start-storybook -s ./public",
     "package": "electron-packager . --out=dist --ignore=.storybook --ignore=src --ignore=rollup.config.js --ignore=.gitignore --overwrite"
   },
-  "author": "Maxim Vasilyev <max-at-work@yandex.ru>",
-  "license": "MIT",
+  "author": "Marko Popović",
+  "license": "PopOnt License",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@storybook/svelte": "^5.3.18",
     "babel-loader": "^8.1.0",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.12",
     "concurrently": "^4.1.2",
     "electron": "^6.1.11",
     "electron-packager": "^14.2.1",
